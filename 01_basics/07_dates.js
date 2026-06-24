@@ -8,3 +8,10 @@ console.log(myCreateDate.toLocaleDateString());
 
 let myTimeStamp = Date.now();
 console.log(myTimeStamp);
+
+newDate.toLocaleDateString('default',{
+    weekday: "long",
+    timeZone : ''
+    
+
+})
