@@ -41,6 +41,18 @@
       console.log(typeof(bigNumber))
 
       // Null ka typeof se datatype object ata hai..
+
+
+/*         *********************** Memory****************************
+          1. Stack(Primitive)-copy
+          2. Heap(Non-Primitive)-refrence */
+
+          let myname = "Prasad"
+          let anothername = "Yash"
+          anothername = "Yashu"
+          console.log(myname);
+          console.log(anothername);
+          
       
 
 
